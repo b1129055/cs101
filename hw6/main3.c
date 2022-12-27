@@ -6,7 +6,7 @@ int main()
     if (year % 4 == 0 && year %100 != 0){
         printf("%d閏年",year);
     }else if (year % 400 == 0){
-        printf("%D閏年",year);}
+        printf("%d閏年",year);}
         else{
             printf("%d不是閏年",year);
         }
